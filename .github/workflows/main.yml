@@ -54,5 +54,5 @@ jobs:
         run: |
           vercel --prod --confirm \
             --token=$VERCEL_TOKEN \
-            --org=$VERCEL_ORG_ID \
-            --project=$VER
+            --org-id=$VERCEL_ORG_ID \
+            --project-id=$VERCEL_PROJECT_ID
