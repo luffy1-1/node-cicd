@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Sample route
 app.get("/", (req, res) => {
-  res.send("Hello, world test123!");
+  res.send("Hello, world test, am i deployed!");
 });
 
 // Another example route
